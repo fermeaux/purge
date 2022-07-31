@@ -3,13 +3,13 @@ import {
   Routes,
   Route
 } from 'react-router-dom'
-import HabitList from './habit'
+import HabitPage from './habit'
 
 export default function App () {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<HabitList />} />
+        <Route path="/" element={<HabitPage />} />
       </Routes>
     </div>
   )

@@ -1,6 +1,5 @@
 interface Habit {
+    id: string
     name: string
-    images: {
-        cover: string
-    }
+    cover: string
 }

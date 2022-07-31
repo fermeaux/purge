@@ -1,11 +1,13 @@
 import React from 'react'
-import { HABITS } from './constants/habit-list'
-import HabitItem from './HabitItem'
+import HabitList from './components/habit-list'
 
-export default function HabitList () {
+export default function HabitPage () {
   return (
-    <div>
-      {HABITS.map((habit, index) => <HabitItem key={index} habit={habit} />)}
-    </div>
+    <main className='py-8 px-16'>
+      <h1 className='text-center text-3xl font-bold'>Addiction Traqueur</h1>
+      <div className='my-8'>
+      <HabitList />
+      </div>
+    </main>
   )
 }

@@ -7,20 +7,22 @@ module.exports = {
   extends: [
     'standard',
     'plugin:react/recommended',
-    'plugin:@typescript-eslint/recommended'
+    'plugin:@typescript-eslint/recommended',
+    'plugin:tailwindcss/recommended'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    project: ['tsconfig.eslint.json'],
+    project: 'tsconfig.eslint.json',
     ecmaFeatures: {
       jsx: true
     },
-    ecmaVersion: '2020',
+    ecmaVersion: 'latest',
     sourceType: 'module'
   },
   plugins: [
     'react',
-    '@typescript-eslint'
+    '@typescript-eslint',
+    'tailwindcss'
   ],
   rules: {
   }
