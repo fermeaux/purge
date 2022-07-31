@@ -6,7 +6,7 @@ export default function HabitPage () {
     <main className='py-8 px-16'>
       <h1 className='text-center text-3xl font-bold'>Addiction Traqueur</h1>
       <div className='my-8'>
-      <HabitList />
+        <HabitList />
       </div>
     </main>
   )
