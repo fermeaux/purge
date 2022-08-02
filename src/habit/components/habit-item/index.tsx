@@ -19,7 +19,7 @@ export default function HabitItem ({ habit }: Prop) {
     <article style={{ backgroundImage: `url(${habit.cover})` }} className='h-32 rounded-3xl bg-cover bg-center'>
       <div className='flex h-full w-full flex-col items-center justify-center rounded-3xl bg-black/25' onClick={consume}>
         <h2 className='text-center text-2xl font-bold text-white'>{habit.name}</h2>
-        <p className='text-center text-xl text-white'>{diff} days without</p>
+        <p className='text-center text-xl text-white'>{diff} jours sans</p>
       </div>
     </article>
   )
