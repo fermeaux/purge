@@ -3,6 +3,7 @@ import cigaretteCover from '../../assets/habit-covers/cigarette.jpg'
 import pornoCover from '../../assets/habit-covers/porno.jpg'
 import coffeeCover from '../../assets/habit-covers/coffee.jpg'
 import sodaCover from '../../assets/habit-covers/soda.jpg'
+import fastfoodCover from '../../assets/habit-covers/fastfood.jpg'
 
 export const HABITS: Habit[] = [
   {
@@ -24,6 +25,11 @@ export const HABITS: Habit[] = [
     id: 'soda',
     name: 'Soda',
     cover: sodaCover
+  },
+  {
+    id: 'fastfood',
+    name: 'Fast food',
+    cover: fastfoodCover
   },
   {
     id: 'porno',
